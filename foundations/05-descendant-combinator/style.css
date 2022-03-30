@@ -1,0 +1,7 @@
+/* yellow red 20 center */
+.container .text {
+    background-color: rgb(255, 165, 0);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
