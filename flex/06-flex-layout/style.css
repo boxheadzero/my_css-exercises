@@ -25,3 +25,74 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style-type: none;
+  padding: inherit;
+}
+
+li {
+  padding: 16px;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(129, 76, 41);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(192, 126, 82);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(192, 126, 82);
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(129, 76, 41);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(241, 187, 106);
+  height: 6vh;
+  padding: 8px;
+
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  height: 6vh;
+  padding: 8px;
+}
+
+.left-links {
+  display: flex;
+}
+
+.right-links {
+  display: flex;
+}

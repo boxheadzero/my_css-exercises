@@ -15,11 +15,42 @@ body {
   justify-content: center;
 }
 
+/* 
+  two classes: container-icon, container-header, container-content
+  container-icon have justify-content, and align-items center
+  modal: padding
+  container-header:  
+*/
+
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+}
+
+.container-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 42px;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.text {
+  padding: 16px 0;
 }
 
 .icon {
